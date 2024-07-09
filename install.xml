@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Header-data</name>
+    <code>Code</code>
+    <version>1.0</version>
+    <author>Pro-rent</author>
+    <link> https://www.uroki-verstki.ru</link>
+
+<file path="catalog/controller/common/header.php">
+    <operation>
+    <search>
+    <![CDATA[
+		$data['telephone'] = $this->config->get('config_telephone');
+    ]]>
+    </search>
+    <add position="after">
+    <![CDATA[
+		$data['address'] = nl2br($this->config->get('config_address'));
+    ]]>
+    </add>
+    </operation>
+</file>
+</modification>

@@ -1,0 +1,149 @@
+.main{
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+.main .container{
+    display: flex;
+}
+.main .container .div-left{
+    width: 23%;
+}
+.main .container .div-left .menu{
+    background: #f0f0f0ab;
+    border-radius: 10px;
+    width: 140%;
+    padding: 30px;
+}
+.main .container .div-left .menu a{
+    font-size: 17px;
+    font-weight: 600;
+    color: #434343;
+}
+.main .container .div-left .menu a:hover{
+    color: #e20000;
+}
+.main .container .div-left .menu li{
+    list-style-type: none;
+    margin: 10px;
+}
+.main .container .div-left .menu li li{
+    margin-left: 20px;
+    padding: 5px;
+    display: none;
+}
+
+
+
+
+
+
+.main .container .div-right{
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-categores-items {
+    max-width: 1300px;
+    margin: auto;
+    /* padding: 15px; */
+
+}
+.all-categores-items .title h1 {
+    text-align: center;
+    color: #424242;
+    font-size: 25px;
+    font-weight: 700;
+}
+.all-categores-items .items-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+}
+.all-categores-items .items-div .items {
+    width: 20%;
+    height: 280px;
+    min-width: 240px;
+    max-width: 240px;
+    background: #f0f0f0ab;
+    border-radius: 10px;
+    position: relative;
+    /* margin: 10px; */
+    box-shadow: 0 0 20px rgba(181, 181, 181, 0.416);
+    overflow: hidden;
+
+}
+
+.all-categores-items .items-div .items a h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #252525;
+}
+.all-categores-items .items-div .items a h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    background: #e71f00db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+    transition: 500ms ease;
+}
+
+
+.all-categores-items .items-div .items a .img1{
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 1000ms ease;
+}
+.all-categores-items .items-div .items:hover img{
+    transform: scale(1.2);
+}
+
+.all-categores-items .items-div .items:hover h2{
+    background: #7be700db;
+    color: #313131;
+
+}
